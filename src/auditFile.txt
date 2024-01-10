@@ -1,0 +1,120 @@
+INITIAL STATE OF ELECTION
+-------------------------
+
+Type of voting: OPL
+Number of candidates: 6
+Number of ballots: 9
+-------------------------
+Candidate totals: 
+D: ike with 3 votes
+D: Foster with 2 votes
+R: Deutsch with 0 votes
+R: Borg with 2 votes
+R: Jones with 1 votes
+I: Smith with 1 votes
+-------------------------
+Party totals: 
+R has 3 total votes.
+D has 5 total votes.
+I has 1 total votes.
+-------------------------
+
+Borg has been seated for the R party.
+ike has been seated for the D party.
+
+FIRST ROUND RESULTS
+-------------------------
+
+R has been allocated 1 seat(s) in the first round.
+D has been allocated 1 seat(s) in the first round.
+I has been allocated 0 seat(s) in the first round.
+There are 1 seat(s) left to allocate
+-------------------------
+
+FINAL RESULTS
+-------------------------
+
+Foster was seated for the D party with their 2 remaining votes.
+INITIAL STATE OF ELECTION
+-------------------------
+
+Type of voting: OPL
+Number of candidates: 6
+Number of ballots: 9
+-------------------------
+Candidate totals: 
+D: ike with 3 votes
+D: Foster with 2 votes
+R: Deutsch with 0 votes
+R: Borg with 2 votes
+R: Jones with 1 votes
+I: Smith with 1 votes
+-------------------------
+Party totals: 
+R has 3 total votes.
+D has 5 total votes.
+I has 1 total votes.
+-------------------------
+
+Borg has been seated for the R party.
+ike has been seated for the D party.
+
+FIRST ROUND RESULTS
+-------------------------
+
+R has been allocated 1 seat(s) in the first round.
+D has been allocated 1 seat(s) in the first round.
+I has been allocated 0 seat(s) in the first round.
+There are 1 seat(s) left to allocate
+-------------------------
+
+FINAL RESULTS
+-------------------------
+
+Foster was seated for the D party with their 2 remaining votes.
+SEAT FILLED
+-------------------------
+Pike had the most votes with 3 and has been awarded seat 1.
+
+SEAT FILLED
+-------------------------
+Foster had the most votes with 2 and has been awarded seat 1.
+
+ELECTION RESULTS: 
+Pike and Foster each won seats with 3 and 2 votes respectively.
+INITIAL STATE OF ELECTION
+-------------------------
+
+Type of voting: IR
+Number of candidates: 4
+Number of ballots: 7
+osen has 2 ballots, which is 28.57142857142857%.
+Kleinberg has 2 ballots, which is 28.57142857142857%.
+Chou has 2 ballots, which is 28.57142857142857%.
+Royce has 0 ballots, which is 0.0%.
+-------------------------
+
+CANDIDATE REMOVED
+-------------------------
+
+Royce has the fewest votes with 0 ballots.
+Their ballots will be redistributed
+BALLOT TOTALS AFTER REDISTRIBUTION
+-------------------------
+
+osen now has 2 ballots, which is 28.57142857142857%.
+Kleinberg now has 2 ballots, which is 28.57142857142857%.
+Chou now has 2 ballots, which is 28.57142857142857%.
+CANDIDATE REMOVED
+-------------------------
+
+Chou has the fewest votes with 2 ballots.
+Their ballots will be redistributed
+BALLOT TOTALS AFTER REDISTRIBUTION
+-------------------------
+
+osen now has 2 ballots, which is 28.57142857142857%.
+Kleinberg now has 3 ballots, which is 42.857142857142854%.
+ELECTION HAS ENDED-------------------------
+
+Kleinberg has won with 3 votes, which is 42.857142857142854%.

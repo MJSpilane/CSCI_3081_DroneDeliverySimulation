@@ -1,0 +1,68 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+
+/**
+ * <p>Election objects are created by the main program and are responsible for managing the election process.
+ * Each Election object creates a HeaderProcessor to parse the header of a CSV ballot file and a VotingSystem
+ * based on the information obtained from the header.</p>
+ * 
+ * @author Matthew Johnson
+ */
+public class Election {
+    /**
+     * File pointer to the CSV ballot file.
+     */
+    private File fp;
+
+    /**
+     * HeaderProcessor used to parse the header of the CSV ballot file.
+     */
+    private HeaderProcessor headerProcessor;
+
+    /**
+     * The VotingSystem object created to run the specified election type.
+     */
+    private VotingSystem votingSystem;
+
+    /**
+     * <p>Constructor for Election objects. Takes in a file pointer from the main program and creates a HeaderProcessor object.
+     * It then creates a VotingSystem object by calling parseHeader() on the HeaderProcessor object. Finally, it calls runElection()
+     * on the VotingSystem object.</p>
+     * 
+     * @param fp The file pointer pointing to the CSV ballot information file. This file should be validated by the main program before being passed in.
+     * @throws FileNotFoundException If the file specified by the file pointer does not exist or cannot be read.
+     */
+    public Election(File fp) throws FileNotFoundException {
+        this.fp = fp;
+        this.headerProcessor = new HeaderProcessor(fp);
+        this.votingSystem = headerProcessor.parseHeader();
+        votingSystem.runElection();
+    }
+
+    /**
+     * <p>Getter for the file pointer field.</p>
+     * 
+     * @return The file pointer held in the fp field.
+     */
+    public File getFp() {
+        return fp;
+    }
+
+    /**
+     * <p>Getter for the headerProcessor field.</p>
+     * 
+     * @return The HeaderProcessor object held in the headerProcessor field.
+     */
+    public HeaderProcessor getHeaderProcessor() {
+        return headerProcessor;
+    }
+
+    /**
+     * <p>Getter for the votingSystem field.</p>
+     * 
+     * @return The VotingSystem object held in the votingSystem field.
+     */
+    public VotingSystem getVotingSystem() {
+        return votingSystem;
+    }
+}
